@@ -1,0 +1,103 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-image: url('../images/background.png') ;
+    background-size: cover;
+    color: #333;
+    text-align: center;
+}
+
+/* Header */
+header {
+    padding: 20px;
+    background-color: rgba(255, 182, 193, 0.8); /* Light pink overlay */
+    border-bottom: 3px solid #ffa6c9;
+}
+
+    header h1 {
+        font-size: 3rem;
+        color: #ff69b4; /* Hot pink */
+    }
+
+    header p {
+        font-size: 1.2rem;
+        margin-top: 10px;
+    }
+
+/* Main section */
+main {
+    padding: 20px;
+}
+
+.intro {
+    margin: 20px 0;
+    padding: 20px;
+    background: rgba(255, 240, 245, 0.9); /* Pinkish-white */
+    border: 2px dashed #ff69b4;
+    border-radius: 10px;
+}
+
+    .intro h2 {
+        font-size: 2rem;
+        color: #d2691e; /* Chocolate brown */
+    }
+
+.gallery {
+    margin: 20px 0;
+}
+
+    .gallery h2 {
+        font-size: 2rem;
+        color: #ff69b4;
+    }
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+    .image-grid img {
+        width: 100%;
+        border-radius: 15px;
+        border: 3px solid #ffa6c9;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+/* Footer */
+footer {
+    padding: 10px;
+    background-color: rgba(255, 182, 193, 0.8);
+    margin-top: 20px;
+    font-size: 1rem;
+}
